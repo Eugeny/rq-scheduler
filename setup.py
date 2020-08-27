@@ -26,7 +26,7 @@ setup(
     ''',
     package_data={'': ['README.rst']},
     tests_require=tests_require,
-    install_requires=['croniter>=0.3.9', 'rq>=0.13'] + tests_require,
+    install_requires=['croniter>=0.3.9', 'rq>=0.13', 'python-dateutil'] + tests_require,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',
